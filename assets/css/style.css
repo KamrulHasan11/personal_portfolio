@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Epilogue" sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Epilogue" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-family: "Epilogue" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: #391400;
+}
+h3 {
+  font-family: "Epilogue" sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #391400;
+  line-height: 32px;
+}
+h5 {
+  color: #ef6d58;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: left;
+}
+p {
+  font-family: "Epilogue" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+a {
+  font-family: "Epilogue" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+}
+button {
+  padding: 5px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #28293e;
+  outline: none;
+  text-transform: uppercase;
+}
+
+/************* Header Section Styles ****************/
+.header__bg {
+  background-color: #28293e;
+  padding: 16px 0px;
+}
+.nav-item {
+  padding: 0px 17px;
+}
+.header__bg ul li a {
+  color: #ffffff;
+}
+.header__bg ul li a:hover {
+  color: #ef6d58;
+}
+.header__bg button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__bg button:hover {
+  border: 1px solid #ef6d58;
+}
+.header__bg button a:hover {
+  color: #ef6d58;
+}
+.header__contact--btn {
+  display: flex;
+  justify-content: end;
+}
+
+/**************
+Start Main Part Styles ***************/
+/******** Start Styling Header Banner Part **********/
+.header__banner {
+  background-color: #28293e;
+}
+.header__banner h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.header__banner p {
+  color: #ffffff;
+}
+.header__banner button {
+  background-color: #ef6d58;
+  border: none;
+}
+.header__banner button:hover {
+  background-color: #ffffff;
+}
+.header__banner button a {
+  color: #ffffff;
+}
+.header__banner button a:hover {
+  color: #ef6d58;
+}
+.header__banner--content {
+  align-items: center;
+}
+/******* End Styling Header Banner Part **********/
+/******** Start Styling Services Part **********/
+.services {
+  background-color: #fdf0e9;
+  padding: 92px 0px;
+}
+.services h2,
+.services h5 {
+  text-align: center;
+}
+.services h2 {
+  color: #391400;
+}
+.our__serivices {
+  padding: 62px 0px;
+}
+.single__service {
+  border: 1px solid #f3d1bf;
+  padding: 48px;
+}
+.service__part,
+.service__leranMore__part {
+  align-items: center;
+}
+.service__img--part,
+.service__leranMore__img--part {
+  position: relative;
+}
+.service__img {
+  position: absolute;
+  left: 36px;
+  top: 27px;
+}
+.service__leranMore__img {
+  position: absolute;
+  left: 39px;
+  top: 25px;
+}
+.explore__more p {
+  text-align: center;
+}
+/******** Start Latest Work Part CSS ********/
+.latest__work {
+  background-color: #28293e;
+  padding: 108px 0px 96px 0px;
+}
+.latest__work h2 {
+  color: #ffffff;
+}
+.latest__work--btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.latest__work--btn button a {
+  color: #ffffff;
+}
+.latest__work--projects {
+  padding: 15px;
+  padding-top: 64px;
+}
+.single__latest--work {
+  padding: 10px;
+  position: relative;
+  border: 1px solid #3a3c56;
+}
+.single__latest--work img {
+  width: 100%;
+}
+.single__latest__work--details {
+  position: absolute;
+  bottom: 51px;
+  left: 48px;
+}
+.single__latest__work--details a {
+  padding: 5px 16px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #28293e;
+}
+.single__latest__work--details h3 {
+  color: #ffffff;
+}
+/********
+End Latest Work Part CSS Style
+*******/
+
+/******** Start About Me Section CSS **********/
+.about__me {
+  background-color: #fdf0e9;
+  padding: 150px 0px 100px 0px;
+}
+.about__top--part {
+  align-items: center;
+  margin-bottom: 174px;
+}
+.about__top__part--details {
+  padding-left: 50px;
+}
+.about__top__part--details button {
+  background-color: #ffffff;
+}
+.about__top__part--details button a {
+  color: #28293e;
+  font-weight: bold;
+}
+.about__top__part--details button a:hover {
+  color: #ef6d58;
+}
+.experience__part {
+  align-items: center;
+  border: 1px solid #f3d1bf;
+  padding: 1rem 2rem;
+}
+.experience__img--part {
+  position: relative;
+}
+.experience__img {
+  position: absolute;
+  left: 44px;
+  top: 32px;
+}
+/********* End About Me Section CSS ********/
+
+/********** Start Featuers Section CSS Style **********/
+.features {
+  padding: 200px 0px;
+  background-color: #28293e;
+}
+.features__details {
+  position: relative;
+}
+.feature__star {
+  position: absolute;
+  bottom: -270px;
+}
+.feature__star img.star__shape {
+  left: 58px;
+  bottom: 57px;
+  position: absolute;
+}
+/********** End Features Section CSS Style *********/
+
+/************ Start Contact Section CSS Style **********/
+.get__started {
+  background-color: #f9e5da;
+  padding: 80px 0px;
+}
+.get__started a button {
+  background-color: #ef6d58;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.get__started__details {
+  align-items: center;
+}
+.get__started__details h5 {
+  text-align: left;
+}
+/********** End Contact Section CSS Style ***********/
+
+/********** Start Testimonials Section CSS Style ***********/
+.testimonials {
+  background-color: #fdf0e9;
+  padding: 100px 0px;
+}
+.testimonials h2 {
+  text-align: center;
+}
+.testimonials h5 {
+  text-align: center;
+}
+.single__testimonials {
+  border: 1px solid #f3d1bf;
+  padding: 48px 0px 48px 48px;
+  margin: 48px 0px;
+}
+.testimonials__content {
+  padding: 30px 0px;
+}
+.testimonials__person {
+  padding: 0px;
+}
+.alanmarti__testimonial {
+  border-left: none;
+  border-right: none;
+}
+.see__all a {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+/*********** End Testimonials Section CSS Style **********/
+
+/******* Start Article Section CSS Style *********/
+article {
+  background-color: #fdf0e9;
+}
+.our__blog button {
+  background-color: #ffffff;
+  color: #28293e;
+  font-weight: bold;
+}
+.our__blog h5 {
+  text-align: left;
+}
+.main__article {
+  padding: 75px 0px;
+}
+aside {
+  padding: 0px;
+  padding-left: 86px;
+}
+.newsletter {
+  padding: 75px 0px;
+}
+.newsletter input#email {
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  width: 71%;
+  padding: 7px;
+}
+.newsletter input[type="button"] {
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  padding: 7px 30px;
+  margin-left: 25px;
+}
+/******** End Article Sectin CSS Style **********/
+
+/******** Start Contact Section CSS Style **********/
+.contact {
+  background-color: #28293e;
+  padding: 170px 0px;
+}
+.get__in--touch {
+  background-color: #ffffff;
+  padding: 48px;
+}
+.get__in--touch input,
+select,
+textarea {
+  border: 1px solid #f3d1bf;
+  padding: 7px;
+  width: 100%;
+  border-radius: 5px;
+}
+.contact__details {
+  padding: 90px;
+}
+.contact__details h5 {
+  text-align: left;
+  color: #ef6d58;
+}
+.contact__details h2 {
+  color: #ffffff;
+}
+.contact__details p {
+  color: #ffffff;
+}
+.contact__info {
+  align-items: center;
+}
+.contact__info p {
+  color: #ffffff;
+}
+.contact__info--img {
+  position: relative;
+}
+.contact__info--shape {
+  position: absolute;
+  left: 39px;
+  top: 25px;
+}
+/******** End Contact Section CSS Style **********/
+
+/*********** Start Dream Project Section CSS Style **********/
+.dream__project {
+  background-color: #fdf0e9;
+  padding: 139px 0px 198px 0px;
+}
+.dream__project h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  color: #391400;
+}
+.dream__project p {
+  color: #391400;
+}
+.dream__project button {
+  background-color: #ef6d58;
+  border: none;
+}
+.dream__project button:hover {
+  background-color: #ffffff;
+}
+.dream__project button a {
+  color: #ffffff;
+}
+.dream__project button a:hover {
+  color: #ef6d58;
+}
+.dream__project--content {
+  align-items: center;
+}
+/********** End Dream Project Section CSS Style *********/
+
+/******* Start Footer CSS Style *******/
+footer {
+  background-color: #28293e;
+  padding: 89px 0px 52px 0px;
+}
+footer h4 {
+  color: #ffffff;
+}
+footer h5 {
+  color: #ef6d58;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #ef6d58;
+}
+footer p {
+  color: #ffffff;
+}
+footer hr {
+  color: #3a3c56;
+}
+/******** End Footer CSS Style ********/
